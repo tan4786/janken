@@ -34,7 +34,7 @@ other look:#{look[program_look]}
        puts "you win"
     
      else
-       puts "draw"
+       return true
     end
     
   else
@@ -55,7 +55,7 @@ other look:#{look[program_look]}
        puts "you lose"
     
      else
-       puts "draw"
+       return true
     end
     return false
   end
